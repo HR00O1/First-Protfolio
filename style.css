@@ -16,7 +16,7 @@ h2 {
 .text-white2 {
   color: black;
 }
-section {
+.flexible-container{
   display: flex;
   padding: 7%;
 }
@@ -27,6 +27,7 @@ section {
 
 img {
   width: 70%;
+  border-radius: 45%;
 }
 
 .link {
@@ -44,4 +45,28 @@ img {
 .top-banner{
   background-image: url(image/wave.svg);
   background-repeat: no-repeat;
+}
+
+.footer1{
+  text-align: center;
+  padding:0 20%;
+}
+
+.parent{
+  display: flex;
+  padding: 0 10%;
+}
+
+.child{
+  box-shadow: 10px 5px 30px black;
+  margin: 2%;
+  padding: 40px;
+  border-radius: 0 20px 50px 0;
+  border-left: 5px solid;
+  border-image: linear-gradient(cyan, blue)0 100% ;
+}
+
+footer{
+  text-align: center;
+  padding: 20px;
 }
